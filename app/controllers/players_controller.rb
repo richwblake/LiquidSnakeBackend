@@ -7,7 +7,7 @@ class PlayersController < ApplicationController
     def create
        player = Player.create(player_params)
 
-       render json: player.valid? ? { player: player } : { message: "Please enter only 3 letters, and a numeric score!" }
+       render json: player.valid? ? { player: player } : { message: "Please enter only 3 letters!" }
     end
 
     private
