@@ -8,21 +8,10 @@
 
 # Create 10 Players to seed database
 
+Player.create(name: "KRS", score: 10000)
 Player.create(name: "WLS", score: 9500)
 Player.create(name: "BOI", score: 9000)
 Player.create(name: "NRM", score: 8500)
-Player.create(name: "DAD", score: 7000)
-Player.create(name: "MOM", score: 6000)
-Player.create(name: "LOL", score: 4500)
-Player.create(name: "PKA", score: 3000)
-Player.create(name: "OOF", score: 1000)
-Player.create(name: "LSR", score: 1)
-Player.create(name: "DAD", score: 7000)
-Player.create(name: "MOM", score: 6000)
-Player.create(name: "LOL", score: 4500)
-Player.create(name: "PKA", score: 3000)
-Player.create(name: "OOF", score: 1000)
-Player.create(name: "LSR", score: 1)
 Player.create(name: "DAD", score: 7000)
 Player.create(name: "MOM", score: 6000)
 Player.create(name: "LOL", score: 4500)

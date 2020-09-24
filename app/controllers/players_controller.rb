@@ -1,6 +1,6 @@
 class PlayersController < ApplicationController
     def index
-        players = Player.all.limit(10)
+        players = Player.all.limit(10).sort { |a, b| b.score <=> a.score }
 
         render json: { players: players }
     end
