@@ -1,6 +1,6 @@
 class PlayersController < ApplicationController
     def index
-        players = Player.all
+        players = Player.all.limit(10)
 
         render json: { players: players }
     end
